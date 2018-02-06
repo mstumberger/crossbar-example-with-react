@@ -11,15 +11,17 @@ redux-autobahn-js (also written by https://github.com/brycedarling/)
 in react with redux store.
 
 To start crossbar server type:
-
+    
+    cd backend
     crossbar start
 
 The server is now listening to localhost:8000
 
 
 To start react dev server open another tab in Konsole and type:
-
-    npm install
+    
+    cd hello-example
+    npm install # only first time to install dependencies
     npm start
 
 Look at pubsub messages and if you press the button you call a
