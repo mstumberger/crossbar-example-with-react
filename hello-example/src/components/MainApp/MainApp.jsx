@@ -22,9 +22,6 @@ class MainApp extends Component {
         if (this.isNewConnection(newProps)) {
             console.log('connected');
             this.props.actions.subscribe('com.example.oncounter');
-            // this.props.actions.call();
-
-            // this.props.actions.subscribe('BTC_XMR');
         }
         if (this.isNewSubscription(newProps, 'com.example.oncounter')) {
             console.log('com.example.oncounter');
