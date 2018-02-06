@@ -1,0 +1,19 @@
+{
+    "pid": 9494, 
+    "argv": [
+        "/usr/local/bin/crossbar", 
+        "start"
+    ], 
+    "options": {
+        "reactor": null, 
+        "command": "start", 
+        "cbdir": "/home/marko-dev/Desktop/hello-crossbar-react-redux-autobahn-js-example/backend/.crossbar", 
+        "config": "config.json", 
+        "personality": "community", 
+        "logdir": null, 
+        "logtofile": false, 
+        "loglevel": "info", 
+        "colour": "auto", 
+        "logformat": "standard"
+    }
+}
