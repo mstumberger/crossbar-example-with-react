@@ -10,7 +10,7 @@ as a base to create a full example of using crossbar.io WAMP router with
 redux-autobahn-js (also written by https://github.com/brycedarling/)
 in react with redux store.
 
-#Install dependencies for crossbar:
+# Install dependencies for crossbar:
 
 ## If you use any other operating system check
 
