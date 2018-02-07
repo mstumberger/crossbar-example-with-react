@@ -10,6 +10,38 @@ as a base to create a full example of using crossbar.io WAMP router with
 redux-autobahn-js (also written by https://github.com/brycedarling/)
 in react with redux store.
 
+#Install dependencies for crossbar:
+
+## If you use any other operating system check
+
+https://crossbar.io/docs/Installation/
+
+### Debian¶
+After a fresh install of Ubuntu 16.04 LTS 64-bit Server, first make sure your system packages are fully up to date:
+
+    sudo apt-get update
+    sudo apt-get -y dist-upgrade
+    Then install the prerequisites:
+    
+    sudo apt-get -y install build-essential libssl-dev libffi-dev \
+       libreadline-dev libbz2-dev libsqlite3-dev libncurses5-dev
+
+## Install for CPython¶
+
+
+Install Pip and make sure it is the latest version:
+
+    python -m ensurepip
+    python -m pip install -U pip
+    
+Install Crossbar and its dependencies from PyPI:
+
+    pip install crossbar
+    
+Check the Crossbar installation:
+
+    crossbar version
+
 To start crossbar server type:
     
     cd backend
@@ -17,6 +49,7 @@ To start crossbar server type:
 
 The server is now listening to localhost:8000
 
+# Run frontend
 
 To start react dev server open another tab in Konsole and type:
     
